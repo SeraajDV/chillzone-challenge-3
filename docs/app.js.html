@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>app.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-Numbers.html">Numbers</a><ul class='methods'><li data-type='method'><a href="module-Numbers.html#~zero">zero</a></li><li data-type='method'><a href="module-Numbers.html#~one">one</a></li><li data-type='method'><a href="module-Numbers.html#~two">two</a></li><li data-type='method'><a href="module-Numbers.html#~three">three</a></li><li data-type='method'><a href="module-Numbers.html#~four">four</a></li><li data-type='method'><a href="module-Numbers.html#~five">five</a></li><li data-type='method'><a href="module-Numbers.html#~six">six</a></li><li data-type='method'><a href="module-Numbers.html#~seven">seven</a></li><li data-type='method'><a href="module-Numbers.html#~eight">eight</a></li><li data-type='method'><a href="module-Numbers.html#~nine">nine</a></li></ul></li><li><a href="module-Operations.html">Operations</a><ul class='methods'><li data-type='method'><a href="module-Operations.html#~plus">plus</a></li><li data-type='method'><a href="module-Operations.html#~minus">minus</a></li><li data-type='method'><a href="module-Operations.html#~times">times</a></li><li data-type='method'><a href="module-Operations.html#~dividedBy">dividedBy</a></li></ul></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">app.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @module Numbers
+ */
+
+/**
+ * Represents the number zero.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const zero = func => func ? func(0) : 0;
+
+/**
+ * Represents the number one.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const one = func => func ? func(1) : 1;
+
+/**
+ * Represents the number two.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const two = func => func ? func(2) : 2;
+
+/**
+ * Represents the number three.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const three = func => func ? func(3) : 3;
+
+/**
+ * Represents the number four.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const four = func => func ? func(4) : 4;
+
+/**
+ * Represents the number five.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const five = func => func ? func(5) : 5;
+
+/**
+ * Represents the number six.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const six = func => func ? func(6) : 6;
+
+/**
+ * Represents the number seven.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const seven = func => func ? func(7) : 7;
+
+/**
+ * Represents the number eight.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const eight = func => func ? func(8) : 8;
+
+/**
+ * Represents the number nine.
+ *
+ * @param {function} [func] - A function to apply to the number.
+ * @returns {number} The result of applying the function to the number, or the number itself.
+ */
+const nine = func => func ? func(9) : 9;
+
+/**
+ * @module Operations
+ */
+
+/**
+ * Represents the addition operation.
+ *
+ * @param {number} y - The number to add.
+ * @returns {function} A function that takes a number and returns the sum.
+ */
+const plus = y => x => x + y;
+
+/**
+ * Represents the subtraction operation.
+ *
+ * @param {number} y - The number to subtract.
+ * @returns {function} A function that takes a number and returns the difference.
+ */
+const minus = y => x => x - y;
+
+/**
+ * Represents the multiplication operation.
+ *
+ * @param {number} y - The number to multiply by.
+ * @returns {function} A function that takes a number and returns the product.
+ */
+const times = y => x => x * y;
+
+/**
+ * Represents the division operation.
+ *
+ * @param {number} y - The number to divide by.
+ * @returns {function} A function that takes a number and returns the result of the division.
+ */
+const dividedBy = y => x => Math.floor(x / y); // Integer division
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.3</a> on Wed Aug 28 2024 07:55:50 GMT+0200 (South Africa Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
